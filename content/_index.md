@@ -2,4 +2,4 @@
 title = "Redplating"
 +++
 
-rm -rf /
+Hola buenas
