@@ -19,3 +19,4 @@ theme = "catppuccin-mocha"
 blog_title = "Redplating"
 accent_color = "#5a4331"
 accent_color_dark = "#5a4331"
+stylesheets = ["custom.css"]
