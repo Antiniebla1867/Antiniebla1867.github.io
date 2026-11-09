@@ -18,4 +18,4 @@ theme = "catppuccin-mocha"
 # Put all your custom variables here
 blog_title = "Redplating"
 primary_color = "#6f4e37"
-accent_color = "#8b5a2b"
+accent_color = "#5a4331"
