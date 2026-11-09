@@ -1,6 +1,6 @@
 # The URL the site will be built for
-base_url = "https://redplating.github.io"
 title = "Redplating"
+base_url = "https://antiniebla1867.github.io/redplating.github.io"
 theme = "duckquill"
 
 # Whether to automatically compile all Sass files in the sass directory
