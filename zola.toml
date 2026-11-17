@@ -11,4 +11,3 @@ theme = "catppuccin-mocha"
 blog_title = "Redplating"
 accent_color = "#ff7800"
 accent_color_dark = "#ffa348"
-styles = ["dmm.css"]
