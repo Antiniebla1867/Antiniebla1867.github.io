@@ -1,3 +1,9 @@
-<div class="dmm" role="img" aria-label="{{ label }}">
-	{{ body | safe }}
+<div class="dmm" role="img" aria-label="{{ value }}">
+	{%- for c in value | split(pat="") -%}
+		{%- if c == "." -%}
+			<span class="dp">.</span>
+		{%- else -%}
+			<span>{{ c | upper }}</span>
+		{%- endif -%}
+	{%- endfor -%}
 </div>
