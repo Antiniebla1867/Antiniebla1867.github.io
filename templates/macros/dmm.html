@@ -1,0 +1,11 @@
+{%- macro dmm(value) -%}
+<div class="dmm" role="img" aria-label="{{ value }}">
+	{%- for c in value | split(pat="") -%}
+		{%- if c == "." -%}
+			<span class="dp">.</span>
+		{%- elif c != "" -%}
+			<span>{{ c | upper }}</span>
+		{%- endif -%}
+	{%- endfor -%}
+</div>
+{%- endmacro dmm -%}

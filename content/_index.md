@@ -4,4 +4,3 @@ title = "Inicio"
 display = "REDPLATING"
 +++
 
-{{ dmm(value=page.extra.display) }}

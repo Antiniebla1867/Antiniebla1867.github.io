@@ -36,6 +36,10 @@
   color: rgba(255, 63, 29, 0.08);
 }
 
+.dmm-header {
+  margin: 1rem 0;
+}
+
 .dmm .dp {
   width: 0.45em;
   place-items: end center;
